@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: #C4C4C4;
+    padding: 64px 38px;
+    height: 150px;
+}
+header li{
+    float: left;
+    margin-right: 20px;
+}
+header li a{
+    color: #000000;
+    font-size: 18px;
+}
+.slider{
+    width: 100%;
+    height: 400px;
+    background-color: #3D3D3D;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    /* opacity: 0.5; */
+    margin-top: -300px;
+}
+.articlecontainer{
+    width: 1374px;
+    margin: 34px auto;
+}
+.articlecontainer article{
+    width: 458px;
+    background-color: #FF9900;
+    float: left;
+    margin-bottom: 48px;
+}
+.articlecontainer article:nth-child(2){
+    background-color: #FFC700;
+}
+.articlecontainer article:last-child{
+    background-color: #FFE600;
+}
+.articlecontainer article div{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.articlecontainer article div img{
+    width: 100%;
+}
+.articlecontainer article section{
+    padding: 14px 8px 12px 12px;
+}
+.articlecontainer article section h2{
+    font-size: 18px;
+}
+.articlecontainer article section p{
+    font-size: 12px;
+}
+.articlecontainer article section p:nth-child(2){
+    margin: 14px 0;
+}
+.articlecontainer article section p:last-child a{
+    color: rgba(0, 0, 0, 0.5);
+}
+footer{
+    padding: 78px 0 30px 38px;
+}
+footer p{
+    clear: left;
+}
+
+/* ==================================== */
+
+/* innerpagearticle1 */
+/* START */
+
+/* ==================================== */
+.goback{
+    margin: 14px 0 14px 46px;
+}
+.goback a{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.innerpage article{
+    width: 1370px;
+    margin: 0 auto;
+    padding: 56px 0 32px 0;
+}
+.innerpage article h2{
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+.innerimage{
+    width: 33.33%;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 36px;
+}
+.innerimage img{
+    width: 100%;
+}
+.innerpage article p:last-child{
+    font-size: 14px;
+    margin: 0 20px 0 10px;
+}
